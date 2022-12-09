@@ -33,5 +33,13 @@ In order to run the webscraping python notebooks, the following files would have
 * INST737_Star_wars_IMDB_StarWars8.ipynb 
 * INST737_Star_wars_IMDB_StarWars9.ipynb 
 
+In order for these notebooks to run successfully, the following python libraries have to be installed:
+* numpy
+* pandas
+* scrapy 
+* selenium
+* time 
+* tqdm 
+* random
 ## Topic modeling and Sentiment Analysis 
 
