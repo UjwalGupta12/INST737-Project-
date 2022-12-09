@@ -22,6 +22,16 @@ This folder is divided into two sub-folders. The first sub-folder is called ""IM
 # How to run the code
 
 ## Webscraping
+In order to run the webscraping python notebooks, the following files would have to be run:
+* INST737_Star_wars_IMDB_StarWars1.ipynb (Star Wars Episode 1: The Phantom Menace)
+* INST737_Star_wars_IMDB_StarWars2.ipynb (Star Wars Episode 2: Attack of the Clones)
+* INST737_Star_wars_IMDB_StarWars3.ipynb (Star Wars Episode 3: Revenge of the Sith)
+* INST737_Star_wars_IMDB_StarWars4.ipynb (Star Wars Episode 4: A New Hope)
+* INST737_Star_wars_IMDB_StarWars5.ipynb (Star Wars Episode 5: Empire Strikes Back)
+* INST737_Star_wars_IMDB_StarWars6.ipynb (Star Wars Episode 6: Return of the Jedi)
+* INST737_Star_wars_IMDB_StarWars7.ipynb (Star Wars Episode 7: The Force Awakens)
+* INST737_Star_wars_IMDB_StarWars8.ipynb (Star Wars Episode 8: The Last Jedi)
+* INST737_Star_wars_IMDB_StarWars9.ipynb (Star Wars Episode 9: The Rise of Skywalker)
 
 ## Topic modeling and Sentiment Analysis 
 
