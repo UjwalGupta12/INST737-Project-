@@ -42,4 +42,28 @@ In order for these notebooks to run successfully, the following python libraries
 * tqdm 
 * random
 ## Topic modeling and Sentiment Analysis 
+The topic modeling analysis and the sentiment analysis were done in the same notebook for each episode, in order to run these programs the following files would have to be run:
 
+* Episode1_dataframe_division_topic_modeling.ipynb
+* Episode2_dataframe_division_topic_modeling.ipynb
+* Episode3_dataframe_division_topic_modeling.ipynb
+* Episode4_dataframe_division_topic_modeling.ipynb
+* Episode5_dataframe_division_topic_modeling.ipynb
+* Episode6_dataframe_division_topic_modeling.ipynb
+* Episode7_dataframe_division_topic_modeling.ipynb
+* Episode8_dataframe_division_topic_modeling.ipynb
+* Episode9_dataframe_division_topic_modeling.ipynb
+
+In order to run the topic modeling/sentiment analysis notebooks, the following python libraries would have to be installed:
+* pandas 
+* regex
+* numpy
+* gensim
+* gensim.corpora 
+* from gensim.utils import simple_preprocess
+* spaCy
+* pyLDAvis
+* ntlk
+* nltk.download('stopwords')
+* stopwords (from nltk.corpus import stopwords)
+* pyLDAvis.gensim_models
