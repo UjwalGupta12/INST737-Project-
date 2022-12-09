@@ -55,6 +55,7 @@ The topic modeling analysis and the sentiment analysis were done in the same not
 * Episode9_dataframe_division_topic_modeling.ipynb
 
 In order to run the topic modeling/sentiment analysis notebooks, the following python libraries would have to be installed:
+
 * pandas 
 * regex
 * numpy
