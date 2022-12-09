@@ -11,7 +11,10 @@ Our project focuses on doing a sentiment analysis of user reviews between differ
 This folder contains all of the python notebooks used for web scraping the user reviews for Star Wars movies from IMDb.com. Each notebook correponds to a Star Wars movie/epsiode. For example  **INST737_Star_wars_IMDB_StarWars1.ipynb** is the web scraping notebook for Star Wars Episode I The Phantom Menace. Each notebook will also have the URL to the IMDb page that was used for web scraping. 
 
 ### Topic modeling and sentiment analysis
-This folder contains the python notebooks that were used for our topic modeling analysis and sentiment analysis 
+This folder contains the python notebooks that were used for our topic modeling analysis and sentiment analysis. Both types of analysis were done in the same python notebook for each episode. For example ""Textblob_test_episode4"" would be the python notebook that was used for episode 4's topic modeling and sentiment analysis. 
 
 ## Project Document
-The project document contains 
+The project document is our document that contains all of the information that relates to our project. This invovles the introduction of our project, background information, project summary, literature review, methodolgy, experiment results, project conclusion, and future work
+
+## Datasets
+
