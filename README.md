@@ -17,4 +17,7 @@ This folder contains the python notebooks that were used for our topic modeling 
 The project document is our document that contains all of the information that relates to our project. This invovles the introduction of our project, background information, project summary, literature review, methodolgy, experiment results, project conclusion, and future work
 
 ## Datasets
+This folder is divided into two sub-folders. The first sub-folder is called ""IMDb datasets" and this folder will contain all of the reviews that we webscraped for each episode from IMDB.com. In total this subfolder has 9 datasets, each dataset represents an episode. The next sub-folder is called "Sentiment analysis datasets", this subfolder contains the datasets that have the polarity and subjectivity of each review for each epsiode. Similar to the first folder, each dataset corresponds to an episode. For both subfolders, all datasets are in .csv format.
+
+#How to install the required libraries for this analysis 
 
