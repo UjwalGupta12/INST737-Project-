@@ -82,17 +82,8 @@ The topic modeling analysis was done for each episode. Run these programs in ord
 * Episode8_dataframe_division_topic_modeling.ipynb
 * Episode9_dataframe_division_topic_modeling.ipynb
 
-In order to run the topic modeling/sentiment analysis notebooks, the following python libraries would have to be installed:
+In order to run the sentiment analysis notebooks, the following python libraries would have to be installed:
 
 * pandas 
-* regex
-* numpy
-* gensim
-* gensim.corpora 
-* from gensim.utils import simple_preprocess
-* spaCy
-* pyLDAvis
-* ntlk
-* nltk.download('stopwords')
-* stopwords (from nltk.corpus import stopwords)
-* pyLDAvis.gensim_models
+* Textblob
+
