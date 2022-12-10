@@ -1,23 +1,24 @@
 # Star Wars: A Sentiment Analysis (INST 737 Project) 
+#### Authors: Matthew Chan and Ujwal Gupta
 
 # Introduction 
-Our project focuses on doing a sentiment analysis of user reviews between different Star Wars movies. The movies that this project focused on is Episode 1 to 9 and the user reviews are from Imdb.com. The goal of this project is to provide Disney a comparison of sentiment results between the George Lucas Star Wars films and the Dinsey owned Star Wars films, that way Disney can use this information for future Star Wars movies. This analysis was done using python and this repository contains all of the files related to this project. This includes a project document that explains the results/findings of our project, python notebooks used for the analyis, and .csv files that contain the datasets used. The following sections of this readme will explain the different parts of this repository and information on how to install the required python libraries. 
+Our project focuses on performing a sentiment analysis and finding the reasons for those sentiment on Star Wars I to IX user reviews from IMDb. The goal of this project is to provide a potential client, Disney, with a comparison of sentiment results between the George Lucas Star Wars movies (Star Wars I to VI) and the Dinsey owned Star Wars movies (Star Wars VII to IX). We hope that Disney can use this information and recommendations when making future Star Wars movies. This analysis was done using Python and its libraries. Our repository contains all of the files related to this project. This includes a project document that explains the results of our project, a detailed ReadMe file on layout of this repository, Python notebooks used for the analyis, and .csv folders containing datasets used. Below is our ReadMe file explaining how to run the notebooks and required Python libraries that are needed to be installed. 
 
 # Parts of this repository
 
-## Python Notebooks
+## Python Notebooks Descriptions
 
-### Webscraping
-This folder contains all of the python notebooks used for web scraping the user reviews for Star Wars movies from IMDb.com. Each notebook correponds to a Star Wars movie/epsiode. For example  **INST737_Star_wars_IMDB_StarWars1.ipynb** is the web scraping notebook for Star Wars Episode I The Phantom Menace. Each notebook will also have the URL to the IMDb page that was used for web scraping. 
+### Web Scraping
+This folder contains all of the Python notebooks used for web scraping the user reviews for Star Wars movies from IMDb. Each notebook corresponds to a Star Wars movie. For example  **INST737_Star_wars_IMDB_StarWars1.ipynb** is the web scraping notebook for _Star Wars Episode I: The Phantom Menace_. Each notebook contains the URL to the IMDb page that was used for web scraping. The subfolder here contains the .csv files from the web scrape of each movie. Each .csv file contains the columns review index, review date, author, rating, review title, review, and review url. 
 
-### Topic modeling and sentiment analysis
-This folder contains the python notebooks that were used for our topic modeling analysis and sentiment analysis. Both types of analysis were done in the same python notebook for each episode. For example ""Textblob_test_episode4"" would be the python notebook that was used for episode 4's topic modeling and sentiment analysis. 
+### Topic Modeling 
+This folder contains the Python notebooks that was used for our topic modeling analysis. Each notebook corresponds to a Star Wars movie. The topic modeling result aided in understanding the common topics of words used in each movie.
+
+### Sentiment Analysis
+This folder contains the Python notebooks that was used for our sentiment analysis. Each notebook corresponds to a Star Wars movie. The subfolder her contains the .csv files of the sentiment analysis of each of the movies with polarity and subjectivity scores (9 files), as well as .csv files of sampled 5% positive reviews and sampled 5% negative reviews of each movie (18 files). 
 
 ## Project Document
-The project document is our document that contains all of the information that relates to our project. This invovles the introduction of our project, background information, project summary, literature review, methodolgy, experiment results, project conclusion, and future work
-
-## Datasets
-This folder is divided into two sub-folders. The first sub-folder is called ""IMDb datasets" and this folder will contain all of the reviews that we webscraped for each episode from IMDB.com. In total this subfolder has 9 datasets, each dataset represents an episode. The next sub-folder is called "Sentiment analysis datasets", this subfolder contains the datasets that have the polarity and subjectivity of each review for each epsiode. Similar to the first folder, each dataset corresponds to an episode. For both subfolders, all datasets are in .csv format.
+The project document is our document that contains all of the related information on our project. This includes the sections: Introduction; Background; Summary and Contributions; Literature Review; Methodolgy: Data Collection and Data Cleaning; Experiment Result: Experiment Setup, Results, Findings; Limitations; Conclusion; Future Work; and References.
 
 # How to run the code
 
