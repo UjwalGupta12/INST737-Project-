@@ -21,9 +21,11 @@ This folder contains the Python notebooks that was used for our sentiment analys
 The project document is our document that contains all of the related information on our project. This includes the sections: Introduction; Background; Summary and Contributions; Literature Review; Methodolgy: Data Collection and Data Cleaning; Experiment Result: Experiment Setup, Results, Findings; Limitations; Conclusion; Future Work; and References.
 
 # How to run the code
+When running the code, it is important to make sure that you are a) using Anaconda Jupyter Notebooks, Google Colabs, or other Python IDE to run the notebooks; b) running from top of the file til you reach the bottom; c) installing or importing all the necessary Python libraries; and d) changing filepaths to your own local drive path.
 
 ## Web Scraping
 In order to run the web scraping Python notebooks, the following files would have to be run:
+
 * INST737_Star_wars_IMDB_StarWars1.ipynb 
 * INST737_Star_wars_IMDB_StarWars2.ipynb 
 * INST737_Star_wars_IMDB_StarWars3.ipynb 
@@ -44,7 +46,7 @@ In order for these notebooks to run successfully, the following Python libraries
 * random
 
 ## Topic Modeling
-The topic modeling analysis was done for each episode. Run these programs in order the following files would have to be run:
+After successfully running the web scraped notebooks, run the topic modeling analysis for each episode. Run these notebooks in the order listed below:
 
 * Topic_Modeling_Episode1.ipynb
 * Topic_Modeling_Episode2.ipynb
@@ -56,7 +58,7 @@ The topic modeling analysis was done for each episode. Run these programs in ord
 * Topic_Modeling_Episode8.ipynb
 * Topic_Modeling_Episode9.ipynb
 
-In order to run the topic modeling notebooks, the following python libraries would have to be installed:
+In order to run the topic modeling notebooks, the following Python libraries would have to be installed:
 
 * pandas 
 * regex
@@ -65,6 +67,7 @@ In order to run the topic modeling notebooks, the following python libraries wou
 * gensim.corpora 
 * from gensim.utils import simple_preprocess
 * spaCy
+* spaCy en core web sm
 * pyLDAvis
 * ntlk
 * nltk.download('stopwords')
@@ -72,7 +75,7 @@ In order to run the topic modeling notebooks, the following python libraries wou
 * pyLDAvis.gensim_models
 
 ## Sentiment Analysis
-The sentiment analysis was done for each episode. Run these programs in order the following files would have to be run:
+After running the topic modeling notebooks, run the sentiment analysis for each episode. Run these programs in order listed below:
 
 * Star_Wars_Episode1_Sentiment_Analysis.ipynb
 * Star_Wars_Episode2_Sentiment_Analysis.ipynb
@@ -84,7 +87,7 @@ The sentiment analysis was done for each episode. Run these programs in order th
 * Star_Wars_Episode8_Sentiment_Analysis.ipynb
 * Star_Wars_Episode9_Sentiment_Analysis.ipynb
 
-In order to run the sentiment analysis notebooks, the following python libraries would have to be installed:
+In order to run the sentiment analysis notebooks, the following Python libraries would have to be installed:
 
 * pandas 
 * Textblob
